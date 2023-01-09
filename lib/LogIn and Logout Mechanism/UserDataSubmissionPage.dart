@@ -303,7 +303,6 @@ class _Submit_DataState extends State<Submit_Data> {
                   Center(
                     child: GestureDetector(
                       onTap: () {
-                        Navigator.of(context).pushReplacementNamed('home');
                         if (_formKey1.currentState!.validate()) {
                           Navigator.of(context).pushReplacementNamed('home');
                         } else {}
